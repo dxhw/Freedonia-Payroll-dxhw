@@ -1,0 +1,9 @@
+{
+  "effective_from": "2026-07-01",
+  "changes": {
+    "resident.tax.bands.1.rate": "0.275",
+    "resident.tax.bands.1.provision": "§4(b) as amended by Finance (Amendment) Act 2026 s.2",
+    "resident.tax.personal_relief": "2500",
+    "resident.tax.relief_provision": "§6 as amended by Finance (Amendment) Act 2026 s.3"
+  }
+}

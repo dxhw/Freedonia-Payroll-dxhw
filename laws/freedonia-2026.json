@@ -1,0 +1,46 @@
+{
+  "effective_from": "2026-01-01",
+  "currency": "FRD",
+  "charge_provision": "§2",
+  "resident": {
+    "taxable_income_provision": "§3",
+    "tax": {
+      "bands": [
+        {
+          "limit": "24000",
+          "rate": "0.10",
+          "provision": "§4(a)"
+        },
+        {
+          "limit": "8333",
+          "rate": "0.25",
+          "provision": "§4(b)"
+        },
+        {
+          "limit": null,
+          "rate": "0.30",
+          "provision": "§4(c)"
+        }
+      ],
+      "personal_relief": "2400",
+      "relief_provision": "§6"
+    },
+    "pension": {
+      "employee_rate": "0.06",
+      "employer_rate": "0.06",
+      "rate_provision": "§5(1)",
+      "cap": "1080",
+      "cap_provision": "§5(2)",
+      "age_exemption": 60,
+      "exemption_provision": "§5(3)"
+    }
+  },
+  "non_resident": {
+    "exclusion_provision": "§7(a)",
+    "tax_rate": "0.20",
+    "tax_provision": "§7(b)"
+  },
+  "rounding": {
+    "decimal_places": 2
+  }
+}
